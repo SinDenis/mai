@@ -1,0 +1,1 @@
+docker run -ti -v $PWD:/test memory-test:0.1 bash -c "cd /test/; make && valgrind --leak-check=full ./main"

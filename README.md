@@ -1,2 +1,2 @@
 # MAI
-laboratory works 
+Laboratory works in Moscow Aviation Institute

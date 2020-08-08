@@ -1,0 +1,162 @@
+insert -23 10 0 32 23 10 0 -12
+insert -51 11 1 34 53 11 1 -12
+insert -66 12 2 45 70 12 2 -21
+insert -30 13 3 55 36 13 3 -29
+insert -42 14 4 67 50 14 4 -39
+insert -27 15 5 57 37 15 5 -27
+insert -74 16 6 71 86 16 6 -39
+insert -33 17 7 61 47 17 7 -27
+insert -75 18 8 94 91 18 8 -58
+insert -88 19 9 100 106 19 9 -62
+insert -31 20 10 87 51 20 10 -47
+insert -31 21 11 92 53 21 11 -50
+insert -50 22 12 102 74 22 12 -58
+insert -79 23 13 62 105 23 13 -16
+insert -76 24 14 38 104 24 14 10
+insert -69 25 15 53 99 25 15 -3
+insert -39 26 16 75 71 26 16 -23
+insert -16 27 17 114 50 27 17 -60
+insert -32 28 18 99 68 28 18 -43
+insert -69 29 19 115 107 29 19 -57
+insert -37 30 20 61 77 30 20 -1
+insert -19 31 21 70 61 31 21 -8
+insert -2 32 22 76 46 32 22 -12
+insert -42 33 23 114 88 33 23 -48
+insert 7 34 24 69 41 34 24 -1
+insert -13 35 25 56 63 35 25 14
+insert 11 36 26 76 41 36 26 -4
+insert 16 37 27 131 38 37 27 -57
+insert -15 38 28 106 71 38 28 -30
+insert -2 39 29 102 60 39 29 -24
+insert -31 40 30 68 91 40 30 12
+insert -52 41 31 100 114 41 31 -18
+insert 9 42 32 108 55 42 32 -24
+insert 19 43 33 83 47 43 33 3
+insert -48 44 34 113 116 44 34 -25
+insert -12 45 35 104 82 45 35 -14
+insert -36 46 36 76 108 46 36 16
+insert -30 47 37 98 104 47 37 -4
+insert -62 48 38 66 138 48 38 30
+insert -24 49 39 109 102 49 39 -11
+insert -32 50 40 102 112 50 40 -2
+insert -1 51 41 96 83 51 41 6
+insert -23 52 42 85 107 52 42 19
+insert -43 53 43 135 129 53 43 -29
+insert -2 54 44 131 90 54 44 -23
+insert 19 55 45 150 71 55 45 -40
+insert 29 56 46 134 63 56 46 -22
+insert -31 57 47 123 125 57 47 -9
+insert 34 58 48 135 62 58 48 -19
+insert 5 59 49 113 93 59 49 5
+insert -26 60 50 140 126 60 50 -20
+insert -5 61 51 124 107 61 51 -2
+insert 38 62 52 144 66 62 52 -20
+insert -5 63 53 100 111 63 53 26
+insert -4 64 54 106 112 64 54 22
+insert -24 65 55 98 134 65 55 32
+insert -32 66 56 157 144 66 56 -25
+insert -15 67 57 152 129 67 57 -18
+insert 10 68 58 123 106 68 58 13
+insert -21 69 59 156 139 69 59 -18
+insert -31 70 60 144 151 70 60 -4
+insert -13 71 61 113 135 71 61 29
+insert 46 72 62 84 78 72 62 60
+insert 7 73 63 153 119 73 63 -7
+insert -14 74 64 166 142 74 64 -18
+insert -19 75 65 96 149 75 65 54
+insert 40 76 66 172 92 76 66 -20
+insert -30 77 67 131 164 77 67 23
+insert -15 78 68 109 151 78 68 47
+insert -31 79 69 95 169 79 69 63
+insert -15 80 70 159 155 80 70 1
+insert 44 81 71 162 98 81 71 0
+insert 11 82 72 100 133 82 72 64
+insert 49 83 73 177 97 83 73 -11
+insert 51 84 74 100 97 84 74 68
+insert 41 85 75 114 109 85 75 56
+insert 46 86 76 138 106 86 76 34
+insert 50 87 77 151 104 87 77 23
+insert 51 88 78 158 105 88 78 18
+insert 7 89 79 145 151 89 79 33
+insert 27 90 80 189 133 90 80 -9
+insert -18 91 81 126 180 91 81 56
+insert -2 92 82 111 166 92 82 73
+insert 60 93 83 117 106 93 83 69
+insert 36 94 84 134 132 94 84 54
+insert 42 95 85 169 128 95 85 21
+insert 72 96 86 160 100 96 86 32
+insert 42 97 87 173 132 97 87 21
+insert 41 98 88 130 135 98 88 66
+insert 3 99 89 146 175 99 89 52
+insert 38 100 90 137 142 100 90 63
+insert 73 101 91 163 109 101 91 39
+insert 30 102 92 153 154 102 92 51
+insert 34 103 93 187 152 103 93 19
+insert 65 104 94 170 123 104 94 38
+insert 28 105 95 191 162 105 95 19
+insert 52 106 96 182 140 106 96 30
+insert 77 107 97 206 117 107 97 8
+insert 85 108 98 195 111 108 98 21
+insert 16 109 99 168 182 109 99 50
+count 2967
+count 5872
+count 6942
+count 6570
+count 7465
+count 9439
+count 1902
+count 7427
+count 9828
+count 9777
+print
+remove 0
+remove 1
+remove 2
+remove 3
+remove 4
+remove 5
+remove 6
+remove 7
+remove 8
+remove 9
+remove 10
+remove 11
+remove 12
+remove 13
+remove 14
+remove 15
+remove 16
+remove 17
+remove 18
+remove 19
+remove 20
+remove 21
+remove 22
+remove 23
+remove 24
+remove 25
+remove 26
+remove 27
+remove 28
+remove 29
+remove 30
+remove 31
+remove 32
+remove 33
+remove 34
+remove 35
+remove 36
+remove 37
+remove 38
+remove 39
+remove 40
+remove 41
+remove 42
+remove 43
+remove 44
+remove 45
+remove 46
+remove 47
+remove 48
+remove 49
+print

@@ -1,0 +1,127 @@
+\documentclass[a5paper,12pt]{book}
+\usepackage[left=1.7cm,right=0.7cm,top=2cm,bottom=1cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{amssymb}
+\usepackage{amsmath,mathtools}
+\usepackage{fancyhdr}
+\usepackage{scrextend}
+\usepackage{wasysym}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LO]{\scriptsize 140}
+\fancyhead[CO]{\scriptsize ЧИСЛЕННОЕ ИНТЕГРИРОВАНИЕ}
+\fancyhead[RO]{\scriptsize [ГЛ. III}
+\fancyhead[LE]{\scriptsize \S\ 8]}
+\fancyhead[CE]{\scriptsize ОПТИМАЛЬНЫЕ КВАДРАТУРЫ}
+\fancyhead[RE]{\scriptsize 141}
+\renewcommand{\headrulewidth}{0pt}
+\linespread{0.8}
+\headsep 2mm
+\begin{document}
+	\noindent {\textit{на классе F} называют величину}
+	\vspace{-1mm}
+	\footnotesize $$R_N(F) = \sup_{f \in F}|\ R_N(f)\ |,$$\normalsize
+	\vskip -3mm
+	\noindent где, как обычно,
+	\vspace{1mm} \small$$R_N(f) = I(f) - S_N(f).$$
+
+	\vspace{-2mm} Нижняя грань
+	\vspace{2mm}
+	\footnotesize $$W_N(F)=\inf_{D_j\ P_j} R_N(F)$$\normalsize
+	\noindent называется \textit{оптимальной оценкой погрешности квадратур на рассматриваемом классе}.
+	Если существует квадратура, для которой $R_N(F)=W_N(F)$, то такую квадратуру
+	называют \textit{оптимальной}, или \textit{наилучшей}, \textit{на рассматриваемом классе}.
+
+	Обратимся к случаю
+	\vspace{-2mm}
+	\footnotesize $$I(f)=\varint\limits_{0}^{1}f(x)dx, \ \ \ f \in F=C_1(A,[0,1]);$$ \normalsize
+	\vskip -2mm
+
+	\noindent $C_1(A,[0,1])$ --- класс непрерывных функций с кусочно-непрерыв\-ной
+	первой производной, удовлетворяющей условию $|f'(x)\ | \leqslant A$.
+
+	Квадратурную сумму записываем в виде
+	\vspace{-2mm}
+	\footnotesize $$S_N(f)=\sum\limits_{j=1}^{N} D_jf(x_j),\ \ x_1<...<x_N.$$ \normalsize
+	\vskip -2mm
+	\noindent Потребуем выполнения условия
+	\vspace{-2mm}
+	\footnotesize
+	\begin{equation}
+		\sum_{j=1}^{N}D_j=1.
+	\end{equation}
+	\normalsize
+	\vskip -3mm
+	\noindent Если (1) не выполнено, то при $f(x)=c=const$ имеем
+	\vspace{0mm}
+	\footnotesize $$R_N(f)=\left(1-\sum\limits_{j=1}^{N}D_j\right)c\neq 0.$$ \normalsize
+	\vskip 0mm
+	\noindent Все функции $f(x)=const$ принадлежат рассматриваемому классу, и следовательно,
+	\vspace{-2mm}
+	\footnotesize $$R_N(F)\geqslant\sup_c\left(\left|1-\sum\limits_{j=1}^{N}D_j\right|\left|c\right|\right)=\infty.$$ \normalsize
+	Ясно, что об оптимальности такой квадратуры говорить не при\-ходится.
+	Квадратура, удовлетворяющая условию (1), точна для постоянных, т. е. всех
+	многочленов нулевой степени. \ Для таких \\ квадратур, согласно (2.6), справедливо соотношение
+	\footnotesize$$R_N(C_1(A,[0,1]))=A\varint\limits_{0}^{1}|\ K_N(y)\ |dy,$$ \normalsize
+	\newpage
+	\noindent где
+	\footnotesize$$K_N(y)=1-y-\sum_{j=1}^{N}D_j(\overline{x_j-y})^0,$$\normalsize
+	\footnotesize
+	\begin{equation*}
+		(\overline{t})^0 = 
+		 \begin{cases}
+		   1 &\text{при $t > 0,$}\\
+		   0 &\text{при $t \leqslant 0.$}
+		 \end{cases}
+	\end{equation*}
+	\normalsize
+	\noindent Для $x_{m-1} \leqslant y < x_m$ имеем
+	\footnotesize
+	\begin{equation*}
+		(\overline{x_j-y})^0 =
+		 \begin{cases}
+		   1 &\text{при $j < m,$}\\
+		   0 &\text{при $j \geqslant m,$}
+		 \end{cases}
+	\end{equation*}
+	\normalsize
+	\noindent (здесь мы положили $0^0=0$); поэтому
+	\footnotesize
+	\begin{multline}
+		\boldsymbol{\sum_{j=1}^{N}}D_j(\overline{x_j-y})^0=\\
+		=
+		\begin{cases}
+			\text{\ \ \ \ \ \ }1 \text{\ \ \ \ \ \ \ \ \ \ 
+			\ \ \ \ \ \ при\ \ \ \ \ \ \ \ } y<x_1,\\
+			\ Q_m=\sum\limits_{j=m}^{N}D_j \text{\ \ \ \ при\ \ \ \ }
+			x_{m-1}\leqslant y <x_m,\ \ \ m=2,...,N, \\
+			\text{\ \ \ \ \ \ \ }0 \text{\ \ \ \ \ \ \ \ 
+			\ \ \ \ \ \ \ при\ \ \ \ \ \ \ }x_N \leqslant y.
+		\end{cases}
+	\end{multline}
+	\normalsize
+
+	Мы \ видим, что исходная задача минимизации погрешности
+	на классе свелась к решению \ слудующей задачи: \ приблизить
+	наилучшим \ \ образом \ в \ метрике $L_1:||\ f\ ||=\varint\limits_{0}^{1}|\ f(x)\ |dx$ функцию \\
+	$1-y$ функциями вида (2). Обозначим
+	\vspace{-7mm}
+	\footnotesize
+	\begin{center}
+		$$\varint\limits_{0}^{1}|\ K_N(y)\ |dy\ \text{\ \ \ через\ \ \ }\ V(Q_2,...,Q_N; x_1,...,x_N)$$
+	\end{center}
+	\normalsize
+	\vskip -3mm
+	Имеем равенство
+	\footnotesize
+	\begin{multline}
+		V(Q_2,...,Q_N; x_1,...,x_N)=\\
+		=\varint\limits_{0}^{x_1}|\ y\ |dy +\sum_{m=2}^{N}\ \varint\limits_{x_{m-1}}^{x_m}|\ (1-y)-Q_m\ |dy+\varint\limits_{x_N}^{1}|\ 1-y\ |dy.
+	\end{multline}
+	\normalsize
+	От фиксированного $Q_m$ зависит только одно слагаемое
+	\footnotesize
+	$$V(Q_m)=\varint\limits_{x_{m-1}}^{x_m}|\ (1-y)-Q_m\ |dy.$$
+	\normalsize
+\end{document}

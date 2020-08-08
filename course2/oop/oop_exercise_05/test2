@@ -1,0 +1,87 @@
+insert -52 10 0 84 52 10 0 -64
+insert -39 11 0 61 41 11 1 -39
+insert -68 12 2 63 72 12 2 -39
+insert -49 13 3 43 55 13 3 -17
+insert -93 14 4 86 101 14 4 -58
+insert -85 15 5 92 95 15 5 -62
+insert -75 16 6 74 87 16 6 -42
+insert -23 17 7 96 37 17 7 -62
+insert -88 18 8 105 104 18 8 -69
+insert -51 19 9 88 69 19 9 -50
+insert -31 20 10 82 51 20 10 -42
+insert -25 21 11 1 47 21 11 -49
+insert -30 22 12 69 54 22 12 -25
+insert -84 23 13 35 110 23 13 11
+insert -28 24 14 104 56 24 14 -56
+insert -5 25 5 69 35 25 15 -19
+insert -57 26 16 73 89 26 16 -21
+insert -51 27 17 102 85 27 17 -48
+insert -70 28 18 51 106 28 18 5
+insert -1 29 19 85 39 29 19 -27
+insert -41 30 20 119 81 30 20 -59
+insert -19 31 21 45 61 31 21 17
+insert -3 32 22 119 47 32 22 -55
+insert 12 33 23 62 34 33 23 4
+insert -76 34 24 112 124 34 24 -44
+insert -14 35 25 70 64 35 25 0
+insert 13 36 26 114 39 36 26 -42
+insert 15 37 27 96 39 37 27 -22
+insert -37 38 28 75 93 38 28 1
+insert 11 39 29 72 47 39 29 6
+insert 4 40 30 87 56 40 30 -7
+insert 5 41 31 89 57 41 31 -7
+insert -37 42 32 112 101 42 32 -28
+insert -63 43 33 107 129 43 33 -21
+insert 7 44 34 126 61 44 34 -38
+insert -6 45 35 133 76 45 35 -43
+insert -12 46 36 95 84 46 36 -3
+insert 11 47 37 102 63 47 37 -8
+insert -28 48 38 103 104 48 38 -7
+insert -8 49 39 87 86 49 39 11
+insert -34 50 40 114 114 50 40 -14
+insert -35 51 41 132 117 51 41 -30
+insert -46 52 42 102 130 52 42 2
+insert -41 53 43 115 127 53 43 -9
+insert -1 54 44 80 89 54 44 28
+insert -36 55 45 91 126 55 45 19
+insert -38 56 46 79 130 56 46 33
+insert 18 57 47 75 76 57 47 39
+insert 0 58 48 148 96 58 48 -32
+insert 39 59 49 75 59 59 40 43
+count 7114
+count 1126
+count 4633
+count 4016
+count 5284
+count 7002
+count 8670
+count 1731
+count 4516
+count 6054
+print
+remove -13
+remove 1
+remove 2
+remove 3
+remove 4
+remove 5
+remove 6
+remove 7
+remove 8
+remove 9
+remove 100
+remove 11
+remove 12
+remove 13
+remove 14
+remove 15
+remove 16
+remove 17
+remove 18
+remove 19
+remove 20
+remove 21
+remove 22
+remove 23
+remove 24
+print
