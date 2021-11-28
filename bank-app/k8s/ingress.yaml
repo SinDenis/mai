@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: bank-app-ingress
+  annotations:
+    kubernetes.io/tls-acme: "false"
+spec:
+  rules:
+    - host: bank-app-sin-denis.cloud.okteto.net
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: bank-app-service
+              servicePort: 8080

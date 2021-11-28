@@ -1,0 +1,41 @@
+.loader {
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+.loader-stick {
+    animation: loader-animation 1.5s infinite;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #2C98F0;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+}
+
+.loader-stick::before {
+    content: '';
+    display: block;
+    position: absolute;
+    transform: rotate(50deg);
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    border: 2px solid red;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+}
+
+@keyframes loader-animation {
+    from {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+    to {
+        opacity: 0.5;
+        transform: rotate(360deg);
+    }
+}

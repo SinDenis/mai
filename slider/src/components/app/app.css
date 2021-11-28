@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+.slider-body {
+    position: relative;
+    padding: 40px 0 26px 0;
+    background-color: rgba(196, 196, 196, 0.2);
+    margin-top: 184px;
+    margin-bottom: 6px;
+}
+
+.slider-buttons {
+    text-align: center;
+}

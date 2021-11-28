@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bank-app-deployment
+  labels:
+    service: bank-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      service: bank-app
+  template:
+    metadata:
+      labels:
+        service: bank-app
+    spec:
+      containers:
+        - name: bank-app
+          image: csindenis/bank-app:0.0.3
+          ports:
+            - containerPort: 8080
+          resources:
+            limits:
+              memory: "1000Mi"
+              cpu: "500m"
