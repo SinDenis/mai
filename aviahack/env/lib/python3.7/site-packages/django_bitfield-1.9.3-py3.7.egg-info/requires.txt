@@ -1,0 +1,8 @@
+Django>=1.4.22
+six
+
+[tests]
+flake8
+mysqlclient
+psycopg2>=2.3
+pytest-django

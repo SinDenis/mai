@@ -1,0 +1,21 @@
+.todo {
+    width: 500px;
+}
+
+.todo-title {
+    text-align: center;
+}
+
+.todo-field {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.todo-field input {
+    width: 60%;
+}
+
+.todo-field label {
+    display: none;
+}

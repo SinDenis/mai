@@ -1,0 +1,13 @@
+.raiting {
+    width: 500px;
+    margin: 30px auto auto;
+}
+
+.raiting-title {
+    text-align: center;
+}
+
+.raiting-list li:hover {
+    color: #fff;
+    background-color: #78c2ad
+}

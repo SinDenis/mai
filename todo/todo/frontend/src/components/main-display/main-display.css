@@ -1,0 +1,10 @@
+.main-display-title {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.main-display-photo {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
